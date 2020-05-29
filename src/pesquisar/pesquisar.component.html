@@ -1,0 +1,17 @@
+<div>
+  <form>
+    <div class="search">
+      <div class="imagem">
+        <img src="assets/img/procurar.png" alt="lupa" />
+      </div>
+      <div>
+        <input
+          placeholder="Pesquisar"
+          [(ngModel)]="filter"
+          name="filter"
+          (ngModelChange)="onInputChange($event)"
+        />
+      </div>
+    </div>
+  </form>
+</div>
