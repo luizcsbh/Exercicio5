@@ -5,9 +5,15 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 import { TituloComponent } from "../titulo/titulo.component";
 import { PesquisarComponent } from "../pesquisar/pesquisar.component";
+import { MovieComponent } from "../movie/movie.component";
 
 @NgModule({
-  declarations: [AppComponent, TituloComponent, PesquisarComponent],
+  declarations: [
+    AppComponent,
+    TituloComponent,
+    PesquisarComponent,
+    MovieComponent
+  ],
   imports: [BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent]
