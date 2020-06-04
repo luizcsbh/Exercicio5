@@ -1,0 +1,10 @@
+<div class="container movies">
+  <div class="card" *ngFor="let movie of movie">
+    <img src="{{movie.imgMovie}}" alt="{{movie.titleMovie}}" />
+    <h4>{{movie.titleMovie}}</h4>
+    <span>Direção: {{movie.directorMovie}}</span>
+    <p>Descrição: {{movie.descriptionMovie}}</p>
+    <span>Lançamento: {{movie.releaseDateMovie}}</span><br />
+    <span>Duração: {{movie.durationMovie}}</span>
+  </div>
+</div>
